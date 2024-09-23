@@ -120,11 +120,6 @@ print(response)
 ```bash
 python web_demo.py
 ```
-### Demo
-
-<video controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-</video>
 
 ## Data
 
