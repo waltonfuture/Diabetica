@@ -1,0 +1,13 @@
+accelerate
+deepspeed
+numpy
+transformers
+torch
+sentencepiece
+tokenizers
+gradio
+openai
+nltk
+bert-score
+pandas
+tqdm
