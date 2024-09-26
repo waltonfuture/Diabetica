@@ -161,14 +161,11 @@ This repository is built upon [HuatuoGPT-II](https://github.com/FreedomIntellige
 
 ## Citation
 ```
-@misc{wei2024adaptedlargelanguagemodel,
-      title={An adapted large language model facilitates multiple medical tasks in diabetes care}, 
-      author={Lai Wei and Zhen Ying and Muyang He and Yutong Chen and Qian Yang and Yanzhe Hong and Jiaping Lu and Xiaoying Li and Weiran Huang and Ying Chen},
-      year={2024},
-      eprint={2409.13191},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.13191}, 
+@article{wei2024adapted,
+  title={An adapted large language model facilitates multiple medical tasks in diabetes care},
+  author={Wei, Lai and Ying, Zhen and He, Muyang and Chen, Yutong and Yang, Qian and Hong, Yanzhe and Lu, Jiaping and Li, Xiaoying and Huang, Weiran and Chen, Ying},
+  journal={arXiv preprint arXiv:2409.13191},
+  year={2024}
 }
 ```
 
