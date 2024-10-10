@@ -98,7 +98,7 @@ def main(args):
         model_output = qwen_chat_output
     model = model.eval()
     output_file_path=f'./{args.model}_eval_rules.jsonl'
-    file_path = './data/120_benchmark.xlsx'
+    file_path = './evaluation/data/120_benchmark.xlsx'
 
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
         df = pd.read_excel(file_path)
