@@ -84,10 +84,10 @@ def main(args):
         model_output = qwen_chat_output
     model = model.eval()
     scores = {}
-    mcq_list = ['./data/ZhiCheng_MCQ_A1.csv','./data/ZhiCheng_MCQ_A2.csv'] # for Chinese
+    mcq_list = ['./evaluation/data/ZhiCheng_MCQ_A1.csv','./evaluation/data/ZhiCheng_MCQ_A2.csv'] # for Chinese
     # mcq_list = ['./data/ZhiCheng_MCQ_A1_translated.csv','./data/ZhiCheng_MCQ_A2_translated.csv'] # for English
     for i, file_path in enumerate(mcq_list):
-        file_name = file_path[15:30]
+        file_name = file_path[-6:-4]
         df = pd.read_csv(file_path)
         merged_df = pd.DataFrame(columns=['question', 'response','answer'])
         addPrompt = '\n请根据题干和选项，给出唯一的最佳答案。输出内容仅为选项英文字母，不要输出任何其他内容。不要输出汉字。'
