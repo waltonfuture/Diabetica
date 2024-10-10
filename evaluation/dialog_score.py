@@ -71,7 +71,7 @@ Please give your reason first, then give a score for the responses on a scale of
 '''
 
 def main(args):
-    file_path = './data/120_benchmark.xlsx'     
+    file_path = './evaluation/data/120_benchmark.xlsx'     
     df = pd.read_excel(file_path)
     model = f'{args.model}_eval_rules'
     output_file = f'./judge_{model}.jsonl'
