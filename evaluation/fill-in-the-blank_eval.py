@@ -175,7 +175,7 @@ def main(args):
         model_output = qwen_chat_output
     
     model = model.eval()
-    input_file_path = f'./data/fill-in-the-blank.csv'
+    input_file_path = f'./evaluation/data/fill-in-the-blank.csv'
 
     data = pd.read_csv(input_file_path, encoding='gbk') 
     questions_list = data.loc[:, "question"].tolist()
