@@ -13,8 +13,8 @@ import unicodedata
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-69oMC94civYuCu5RB3787a651f024b01A6E195Af3848Fd9d", # KEY
-    base_url="https://api3.apifans.com/v1"
+    api_key="", # KEY
+    base_url=""
 )
 
 def get_eval(content: str):
