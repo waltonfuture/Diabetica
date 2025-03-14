@@ -1,15 +1,25 @@
-# Diabetica
+# Diabetica (SCI-FM @ ICLR 2025)
 <div align="center">
 <h2>
-    An adapted large language model facilitates multiple medical tasks in diabetes care
+    Diabetica: Adapting Large Language Model to Enhance Multiple Medical Tasks in Diabetes Care and Management
 </h2>
 
 
 </div>
 
 <p align="center">
-⬇️ <a href="https://huggingface.co/WaltonFuture/Diabetica-7B" target="_blank">7B Model</a> ｜⬇️ <a href="https://huggingface.co/WaltonFuture/Diabetica-1.5B" target="_blank">1.5B Model</a> ｜📃 <a href="https://arxiv.org/pdf/2409.13191" target="_blank">Paper</a> <br>
+⬇️ <a href="https://huggingface.co/WaltonFuture/Diabetica-7B" target="_blank">7B Model</a> ｜⬇️ <a href="https://huggingface.co/WaltonFuture/Diabetica-1.5B" target="_blank">1.5B Model</a> ｜⬇️ <a href="https://huggingface.co/WaltonFuture/Diabetica-o1" target="_blank">o1 like Model</a> ｜📃 <a href="https://arxiv.org/pdf/2409.13191" target="_blank">Paper</a> <br>
 </p>
+
+## News
+
+🔥 [2025.3] We release the SFT datasets for Diabetica and Diabetica-o1. Please check them at [Diabetica-SFT](https://huggingface.co/datasets/WaltonFuture/Diabetica-SFT) and [Diabetica-o1-SFT](https://huggingface.co/datasets/WaltonFuture/Diabetica-o1-SFT).
+
+🔥 [2025.3] We release an o1 like model ([Diabetica-o1](https://huggingface.co/WaltonFuture/Diabetica-o1)). 
+
+🔥 [2025.3] Our paper is accepted by SCI-FM @ ICLR 2025.
+
+🔥 [2024.9] We release the Diabetica family ([7B](https://huggingface.co/WaltonFuture/Diabetica-7B) and [1.5B](https://huggingface.co/WaltonFuture/Diabetica-1.5B) models) and benchmarks.
 
 
 ## Introduction
@@ -24,7 +34,6 @@ Our study introduced a reproducible framework for developing a specialized LLM c
 
 - Comprehensive evaluation: We designed comprehensive benchmarks and conducted clinical trials to validate the model's effectiveness in clinical applications. This ensured our model's practical utility and sets a new standard for evaluating AI tools in diabetes care.
 
-Note that we're still actively organizing our code. Please stay tuned for updates coming soon!
 
 <div align=center>
 <img src="assets/procedure.jpg"  width = "90%" alt="Diabetica" align=center/>
@@ -64,6 +73,7 @@ Our models are now available on Huggingface.
 | -------------- | ------------------ | ------------- |
 | Diabetica-7B  | Qwen2-7B-Instruct  | [HF Link](https://huggingface.co/WaltonFuture/Diabetica-7B) |
 | Diabetica-1.5B  | Qwen2-1.5B-Instruct  | [HF Link](https://huggingface.co/WaltonFuture/Diabetica-1.5B) |
+| Diabetica-o1  | Qwen2.5-7B-Instruct  | [HF Link](https://huggingface.co/WaltonFuture/Diabetica-o1) |
 
 ### Setup
 
@@ -123,7 +133,13 @@ python web_demo.py
 
 ## Data
 
-Please contact waltonfuture@sjtu.edu.cn or zying16@fudan.edu.cn if you need our training data.
+Our datasets are now available on Huggingface.
+
+| Dataset          |  Link    |
+| -------------- | ------------- |
+| Diabetica-SFT  |  [HF Link](https://huggingface.co/datasets/WaltonFuture/Diabetica-SFT) |
+| Diabetica-o1-SFT  |  [HF Link](https://huggingface.co/WaltonFuture/Diabetica-1.5B) |
+
 
 ## Evaluation
 
@@ -158,6 +174,9 @@ The Diabetica family is built upon the amazing [Qwen2](https://huggingface.co/co
 
 This repository is built upon [HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II).
 
+## Contact
+
+Please contact Lai Wei (waltonfuture@sjtu.edu.cn) or Zhen Ying (zying16@fudan.edu.cn) if needed.
 
 ## Citation
 ```
