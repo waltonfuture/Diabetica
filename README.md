@@ -17,7 +17,7 @@
 
 🔥 [2025.3] We release an o1 like model ([Diabetica-o1](https://huggingface.co/WaltonFuture/Diabetica-o1)). 
 
-🔥 [2025.3] Our paper is accepted by SCI-FM @ ICLR 2025.
+🔥 [2025.3] Our paper is accepted by SCI-FM @ ICLR 2025 (workshop).
 
 🔥 [2024.9] We release the Diabetica family ([7B](https://huggingface.co/WaltonFuture/Diabetica-7B) and [1.5B](https://huggingface.co/WaltonFuture/Diabetica-1.5B) models) and benchmarks.
 
