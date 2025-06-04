@@ -1,0 +1,7 @@
+charset_normalizer
+cpm_kernels
+fastapi
+gradio>=3.40.0
+sentencepiece
+tiktoken
+uvicorn

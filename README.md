@@ -81,6 +81,17 @@ Our models are now available on Huggingface.
 pip install -r requirements.txt
 ```
 
+### Model training
+
+We adopt the [ms-swift](https://github.com/modelscope/ms-swift) framework for the fine-tuning.
+Here is an example to train Diabetica-7B.
+
+```base
+cd swift
+pip install -e .
+bash tran_qwen2.sh
+```
+
 ### Model Inference
 
 ```bash
