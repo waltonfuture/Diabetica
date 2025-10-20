@@ -21,7 +21,7 @@ def model_output(history, model, tokenizer):
         tokenize=False,
         add_generation_prompt=True
     )
-    model_inputs = tokenizer([text], return_tensors="pt").to("cuda")
+    model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
     generation_config = model.generation_config
     generation_config.max_new_tokens=2048
